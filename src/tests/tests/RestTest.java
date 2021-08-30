@@ -1,6 +1,7 @@
 package tests;
 
 import io.restassured.specification.RequestSpecification;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -10,8 +11,9 @@ import static org.hamcrest.Matchers.equalTo;
 public class RestTest {
     private String key;
 
+    @BeforeEach
     private void __init__(){
-       String key= "ba9d5cca-358b-462c-b74d-25afbd1d3e31";
+       this.key= "ba9d5cca-358b-462c-b74d-25afbd1d3e31";
     }
     @Test
     public void statusCodeTest(){

@@ -3,9 +3,11 @@ package ui;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import strategies.MatchingPredicate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.BiPredicate;
 
 public class PlanetPage {
     private final WebDriver driver;
@@ -53,6 +55,26 @@ public class PlanetPage {
     }
 
     public List<Planet> getPlanetObjects() {
+        createPlanets();
         return this.planets;
+    }
+
+    public Planet getPlanetObject(String planet) {
+        for (var plan:getPlanetObjects()){
+            if(plan.getName().equals(planet)){
+                return plan;
+            }
+        }
+        return null;
+    }
+
+    public Planet matchPlanet(BiPredicate<Planet, Planet> predicate){
+        Planet currentPlanet= getPlanetObjects().get(0);
+        for(var planet:getPlanetObjects()){
+            if (!predicate.test(currentPlanet, planet)){
+                currentPlanet=planet;
+            }
+        }
+        return currentPlanet;
     }
 }

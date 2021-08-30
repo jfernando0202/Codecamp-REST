@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import strategies.MatchingStrategy;
+import strategies.MatchingPredicate;
 import ui.FormPage;
 import ui.HomePage;
 import ui.PlanetPage;
@@ -16,10 +16,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class PlaygroundTest {
     private ChromeDriver driver;
     private HomePage homePage;
+
     @BeforeEach
     public void setup(){
         driver = new ChromeDriver();
-        driver.get("https://d1iw6mb9di5l9r.cloudfront.net/#/");
+        driver.get("https://d21vtxezke9qd9.cloudfront.net");
         homePage = new HomePage(driver);
     }
     @Test
@@ -94,7 +95,14 @@ public class PlaygroundTest {
     public void AssertPlanetFurtherestFromSun(){
         PlanetPage planetPage = new PlanetPage(driver);
         homePage.clickPlanetButton();
-        assertTrue(new MatchingStrategy(planetPage).IsMostDistantFromSun("Uranus"));
+        assertEquals("Neptune", planetPage.matchPlanet(MatchingPredicate.getGreaterDistance()).getName());
+    }
+
+    @Test
+    public void AssertPlanetClosestToSun(){
+        PlanetPage planetPage = new PlanetPage(driver);
+        homePage.clickPlanetButton();
+        assertEquals("Mercury", planetPage.matchPlanet(MatchingPredicate.getLesserDistance()).getName());
     }
 
 }

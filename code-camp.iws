@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8952180-dc77-4163-986e-c2315c935c66" name="Changes" comment="thursday">
-      <change beforePath="$PROJECT_DIR$/code-camp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code-camp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-camp.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/code-camp.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeCamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codeCamp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/strategies/MatchingPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/tests/HerokuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/tests/PlanetsTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/tests/RestTestOpenWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ui/Planet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ui/PlanetPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-camp.iws" beforeDir="false" afterPath="$PROJECT_DIR$/code-camp.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/strategies/Matchable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/strategies/MatchingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/tests/PlaygroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/tests/PlaygroundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/tests/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/tests/RestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ui/PlanetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ui/PlanetPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/strategies/Matchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/strategies/MatchingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/PlaygroundTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/PlaygroundTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/PlanetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/PlanetPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +279,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.PlaygroundTest.AssertPlanetFurtherestFromSun">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RestTestOpenWeather.sunriseTest">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -283,37 +301,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaygroundTest.AssertDistanceFromSun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-camp" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PlaygroundTest" />
-      <option name="METHOD_NAME" value="AssertDistanceFromSun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaygroundTest.AssertPlanetDistanceFromSun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-camp" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PlaygroundTest" />
-      <option name="METHOD_NAME" value="AssertPlanetDistanceFromSun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaygroundTest.AssertPlanetFurtherestFromSun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestTestOpenWeather.statusCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-camp" />
       <extension name="coverage">
         <pattern>
@@ -322,8 +310,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PlaygroundTest" />
-      <option name="METHOD_NAME" value="AssertPlanetFurtherestFromSun" />
+      <option name="MAIN_CLASS_NAME" value="tests.RestTestOpenWeather" />
+      <option name="METHOD_NAME" value="statusCodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -334,11 +322,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaygroundTest.AssertPlanetRadius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestTestOpenWeather.sunriseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-camp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PlaygroundTest" />
-      <option name="METHOD_NAME" value="AssertPlanetRadius" />
+      <option name="MAIN_CLASS_NAME" value="tests.RestTestOpenWeather" />
+      <option name="METHOD_NAME" value="sunriseTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -349,11 +343,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaygroundTest.AssertRadius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestTestOpenWeather.sunsetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-camp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PlaygroundTest" />
-      <option name="METHOD_NAME" value="AssertRadius" />
+      <option name="MAIN_CLASS_NAME" value="tests.RestTestOpenWeather" />
+      <option name="METHOD_NAME" value="sunsetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTestOpenWeather.tempTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-camp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RestTestOpenWeather" />
+      <option name="METHOD_NAME" value="tempTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest.postcodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-camp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RestTest" />
+      <option name="METHOD_NAME" value="postcodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -377,11 +419,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlaygroundTest.AssertPlanetFurtherestFromSun" />
-        <item itemvalue="JUnit.PlaygroundTest.AssertPlanetDistanceFromSun" />
-        <item itemvalue="JUnit.PlaygroundTest.AssertPlanetRadius" />
-        <item itemvalue="JUnit.PlaygroundTest.AssertDistanceFromSun" />
-        <item itemvalue="JUnit.PlaygroundTest.AssertRadius" />
+        <item itemvalue="JUnit.RestTestOpenWeather.sunriseTest" />
+        <item itemvalue="JUnit.RestTestOpenWeather.tempTest" />
+        <item itemvalue="JUnit.RestTestOpenWeather.sunsetTest" />
+        <item itemvalue="JUnit.RestTestOpenWeather.statusCodeTest" />
+        <item itemvalue="JUnit.RestTest.postcodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -541,11 +583,48 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/tests/tests/PlaygroundTest.java</url>
-          <line>62</line>
-          <properties class="PlaygroundTest" method="CheckErrorsInForms">
+          <line>57</line>
+          <properties class="tests.PlaygroundTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/tests/HerokuTest.java</url>
+          <line>53</line>
+          <properties class="tests.HerokuTest" method="checkImageLoadCorrectly">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/tests/HerokuTest.java</url>
+          <line>76</line>
+          <properties class="tests.HerokuTest" method="contextMenuAppears">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/tests/RestTest.java</url>
+          <line>24</line>
+          <properties class="tests.RestTest" method="postcodeTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tests/tests/RestTestOpenWeather.java</url>
+          <line>17</line>
+          <properties class="tests.RestTestOpenWeather" method="tempTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tests/tests/RestTestOpenWeather.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
